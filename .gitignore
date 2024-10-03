@@ -1,0 +1,15 @@
+# .gitignore
+# Python
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Django stuff:
+db.sqlite3
+/media/
+/staticfiles/
+
+# Virtual environments
+venv/

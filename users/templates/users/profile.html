@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="mainContainer">
+    <h2>Your Profile</h2>
+    <p>Email: {{ user.email }}</p>
+    <h3>Change Password</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit">Change Password</button>
+    </form>
+</div>
+{% endblock %}

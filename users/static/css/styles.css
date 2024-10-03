@@ -1,0 +1,151 @@
+body{
+    line-height: 2;
+    overflow: hidden;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    margin-top: 10vh;
+    background-color: #5b5b3d;
+}
+
+/* Containers */
+.mainContainer{
+    position: absolute;
+    left: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 4vh;
+    width: 94vw;
+    height: 82vh;
+    background-color: #dfdc9120;
+    border-radius: .5vh;
+    overflow-y: -2;
+    z-index: -5;
+}
+.form-group{
+    width: 27vw;
+    height: 12vh;
+    padding-left: 1vw;
+    padding-top: .5vw;
+    margin-top: 3vh;
+    background-color: #dfdc9120;
+    border-radius: .3vh;
+} #div_id_first_name{
+    position: absolute;
+    top: 8.5vh;
+    left: 34vw;
+} #div_id_last_name{
+    position: absolute;
+    top: 8.5vh;
+    left: 66vw;
+} #div_id_password1{
+    position: absolute;
+    top: 27.5vh;
+    left: 2vw;
+} #div_id_password2{
+    position: absolute;
+    top: 27.5vh;
+    left: 34vw;
+} small{
+    position: absolute;
+    left: .5vw;
+    top: 7vw;
+} 
+
+.alert{
+    position: absolute;
+    left: 5vw;
+    top: 82vh;
+    background-color: #5b5b3d80;
+    border-radius: .5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: #c87467; /* Change bullet color */
+}
+
+div.form-group:not([id]){ display: none; }
+
+input{
+    border-radius: .3vh;
+    border: none;
+    width: 25vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    height: 6vh;
+    background-color: #edecc460;
+} input:focus{
+    outline: none; /* Removes the focus outline */
+    box-shadow: none; /* Removes any box-shadow applied on focus */
+}
+#div_id_terms{
+    display: none;
+} #hint_id_new_password1, #hint_id_new_password2{
+    display: none;
+}
+
+li::marker {
+    content: '— '; /* Replace bullet with a dash */
+    color: #c87467; /* Change bullet color */
+    font-size: 2vh; /* Adjust bullet size */
+    font-weight: bold;
+  }
+
+/* BUTTONS */
+.nav_buttons, button{
+    border-radius: .5vh;
+    border: none;
+    width: 10vw;
+    height: 5.5vh;
+    background-color: #12120980;
+} .nav_buttons{
+    position: absolute;
+    top: -8vh;
+    left: -0vw;
+    padding-top: 1vh;
+}#button_1{
+    left: 12vw;
+}#button_2{
+    left: 24vw;
+}button{
+    position: absolute;
+    bottom: 3vh;
+    width: 20vw;
+}
+
+.nav_buttons:hover, button:hover{
+    background-color: #edecc460;
+}
+
+h1{
+    font-size: 3vh;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 3vh;
+    font-weight: 300;
+}
+h3, p{
+    font-size: 2.2vh;
+    font-weight: 200;
+}
+body, button{
+    color: #242412;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav_buttons, .homelink, button{
+    text-align: center;
+    font-weight: 300;
+    color: #f1f1db80;
+    text-decoration: none;
+    font-size: 2vh;
+} a:hover, button:hover {
+    color: #5b5b3d;
+    cursor: pointer;
+} input{
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #3d3d2a;
+}
+
